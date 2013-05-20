@@ -1,0 +1,14 @@
+<extension version="0.1" type="plugin" group="content">
+	<name>GeoIPContent</name>
+	<author>Grant Slater</author>
+	<creationDate>May. 20 2013</creationDate>
+	<copyright>GNU/GPLv2</copyright>
+	<license>http://www.gnu.org/copyleft/gpl.html GNU/GPL</license>
+	<authorEmail>joomla@firefishy.com</authorEmail>
+	<authorUrl>www.firefishy.com</authorUrl>
+	<version>0.1</version>
+	<description>This plugin allows embedding GeoIP control codes for dynamic contents.</description>
+	<files>
+		<filename plugin="GeoIPContent">GeoIPContent.php</filename>
+	</files>
+</extension>
