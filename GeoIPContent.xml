@@ -10,5 +10,7 @@
 	<description>This plugin allows embedding GeoIP control codes for dynamic contents.</description>
 	<files>
 		<filename plugin="GeoIPContent">GeoIPContent.php</filename>
+		<folder>geoip-api-php</folder>
+		<folder>maxmind-data</folder>
 	</files>
 </extension>
