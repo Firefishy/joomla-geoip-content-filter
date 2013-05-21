@@ -20,7 +20,7 @@ class plgContentGeoIPContent extends JPlugin {
 
 		$contents = $article->text;
 		$output = '';
-		$regexp = '/(.*?)'.'\{GEO [a-zA-Z]{2,3}\}'.'\s+(.*?)'.'\{\/GEO\}'.'(.*)/s';
+		$regexp = '/(.*?)'.'\{GEO ([\!A-Za-z]{2,4})\}'.'\s*(.*?)'.'\{\/GEO\}'.'(.*)/s';
 		$found = preg_match($regexp, $contents, $matches);
 		while ($found) {
 			$output .= $matches[1];
